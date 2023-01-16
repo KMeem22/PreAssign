@@ -1,0 +1,67 @@
+body {
+    margin: 8px auto;
+    width: 100%;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+main{
+    width: 100%;
+    margin: 50px auto;
+    /*text-align: center;*/
+}
+
+
+  nav {
+    padding: 2px;
+    margin: 2px;
+    height: 80px;
+  }
+  
+  nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    padding: 10px 20px;
+    font-size: 27px;
+  }
+  
+  nav ul li:hover {
+    background-color: skyblue;
+    transition: 0.9s;
+    text-decoration: underline;
+  }
+
+  .site_title {
+    padding-right: 5px;
+    font-size: 5ex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-justify:auto;
+  }
+
+  img{
+    width: 1500px;;
+    height: auto;
+  }
+
+  .column {
+    float: left;
+    width: 27%;
+   height: 30px;
+}
+p {
+    font-size:20px;
+    font-weight:bold;
+}
